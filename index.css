@@ -1,0 +1,480 @@
+.main1
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./image/background-image.jpg");
+    width: 100%;
+    min-height: 470px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.heading-text
+{
+    padding-top: 155px;
+    text-align: center;
+}
+.small-text h1
+{
+    color: #D4A64F;
+    font-weight: lighter;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: left;
+    font-family:'Montserrat' ;
+    letter-spacing: 0px;
+    margin-top: 20px;  
+}
+.text1
+{
+    display: flex;
+    justify-content: space-between;
+}
+.content-block1
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-block1 .image1
+{
+    background-image: url(./image/living-comfort.webp);
+    flex-basis: 47%;
+    background-size: cover;
+    min-height: 450px;
+}
+.text3
+{
+    margin-left: 7%;
+    flex-basis: 35%;
+}
+.text3 p
+{
+    font-size: 16px;
+}
+.main4
+{
+    padding-top: 65px;
+    z-index: -1;
+    position: relative;
+}
+.content-block2
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.content-block2 .image2
+{
+    background-image: url(./image/Preconstruction\ Reservation.jpeg);
+    flex-basis: 47%;
+    background-size: cover;
+    min-height: 450px;
+    margin-left: 9%;
+}
+.text4 p
+{
+    font-size: 16px;
+}
+.main5
+{
+    padding-top: 65px;
+}
+.text4
+{
+    margin-left: 7%;
+    flex-basis: 31%;
+    padding-top: 80px;
+}
+.main4::before{
+position: absolute;
+content: '';
+background-image: url(./image/tree.jpg);
+bottom: -367px;
+left: 0;
+max-width: 313px;
+width: 100%;
+height: 447px;
+z-index: -1;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+.main6 img
+{
+    width: 100%;
+    max-height: 489px;
+}
+.main6
+{
+    padding-top: 283px;
+}
+.main7
+{
+    padding-top: 167px;
+}
+.main7 h2
+{
+    text-align: center;
+}
+.main7 p
+{
+    padding-top: 45px;
+}
+.button
+{
+    padding-top: 61px;
+    text-align: center;
+}
+.bird-image img
+{
+    max-width: 266px;
+    min-height: 242px;
+}
+.main8
+{
+    text-align: end;
+    padding-top: 20px;
+}
+.content-block3
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text5
+{
+    flex-basis: 37%;
+}
+.content-block3 .image3
+{
+    background-image: url(./image/three-bedroom-photo.jpg);
+    flex-basis: 44%;
+    min-height: 400px;
+    margin-left: 10%;
+    background-size: cover;
+}
+.content-block4
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main10
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards1
+{
+    flex-basis: 55%;
+}
+.cards2
+{
+    flex-basis: 55%;
+}
+.card1
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card2
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width:767px) {
+    .small-text h1
+    {
+        font-size: 40px;
+        padding-bottom: 0;
+    }
+    .small-text h5
+    {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 0;    
+    }
+    .text1
+    {
+        display: block;
+    }
+    .main6
+    {
+        padding-top: 40px;
+        max-height: 500px;
+    }
+    .button .secondary-button a
+    {
+        font-size: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+@media (max-width:768px){
+    .main1{
+        min-height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1
+    {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .heading-text
+    {
+        padding-top: 0;
+    }
+    h6
+    {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+    h2
+    {
+        font-size: 30px;
+    }
+    .text1
+    {
+        display: block;
+    }
+    .content-block1
+    {
+    display: block;
+    flex-wrap: wrap;
+    }
+    .content-block2
+    {
+    display: block;
+    flex-wrap: wrap;
+    padding-top: 0;
+    }
+    .main4::before
+    {
+        height: 170px;
+        bottom: -100px;
+    }
+    .content-block1 .image1 
+    {
+        min-height: 300px;
+    }
+    .content-block2 .image2 
+    {
+        min-height: 300px;
+        margin-left: 0;
+    }
+    .main4
+    {
+        padding-top: 10px;
+    }
+    .text3
+    {
+        margin-left: 0;
+    }
+    .text3 p
+    {
+        font-size: 15px;
+    }
+    .text4 p 
+    {
+        font-size: 15px;
+    }
+    .text4 .primary-button a 
+    {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main5
+    {
+        padding-top: 0;
+    }
+    .text4
+    {
+        padding-top: 0px;
+    }
+    .text4
+    {
+        margin-left: 0;
+    }
+    h6
+    {
+        padding-top: 0;
+    }
+    .main6
+    {
+        padding-top: 30px;
+        max-height: 500px;
+    }
+    .bird-image img
+    {
+        max-width: 120px;
+        min-height: 120px;
+    }
+    .button .secondary-button a
+    {
+        font-size: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .main7
+    {
+        padding-top: 10px;
+    }
+    .main7 p
+    {
+        padding-top: 5px;
+    }
+    .button
+    {
+        padding-top: 10px;
+    }
+    .main9
+    {
+        padding-top: 0;
+    }
+    .content-block3
+    {
+     display: block;
+    flex-wrap: wrap;
+    padding-top: 0;
+    }
+    .content-block3 .image3
+    {
+    min-height: 300px;
+    margin-left: 0;
+    }
+    .text5 .primary-button a
+    {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .text5 h6
+    {
+        padding-top: 5px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+    .main1{
+        min-height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading-text
+    {
+        padding-top: 0;
+    }
+    .content-block1
+    {
+    display: block;
+    flex-wrap: wrap;
+    }
+    .content-block2
+    {
+    display: block;
+    flex-wrap: wrap;
+    padding-top: 0;
+    }
+    .main4::before
+    {
+        height: 220px;
+        bottom: -100px;
+    }
+    .content-block1 .image1 
+    {
+        min-height: 400px;
+    }
+    .content-block2 .image2 
+    {
+        min-height: 400px;
+        margin-left: 0;
+    }
+    .main4
+    {
+        padding-top: 10px;
+    }
+    .text3
+    {
+        margin-left: 0;
+    }
+    .text3 p
+    {
+        font-size: 15px;
+    }
+    .text4 p 
+    {
+        font-size: 15px;
+    }
+    .text4 .primary-button a 
+    {
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main5
+    {
+        padding-top: 0;
+    }
+    .text4
+    {
+        padding-top: 0px;
+    }
+    .text4
+    {
+        margin-left: 0;
+    }
+    h6
+    {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .main6
+    {
+        padding-top: 40px;
+        max-height: 500px;
+    }
+    .button .secondary-button a
+    {
+        font-size: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .bird-image img
+    {
+        max-width: 170px;
+        min-height: 170px;
+    }
+    .main7
+    {
+        padding-top: 10px;
+    }
+    .main7 p
+    {
+        padding-top: 5px;
+    }
+    .button
+    {
+        padding-top: 10px;
+    }
+}
+@media (min-width:0px) and (max-width:459px){
+    .button .secondary-button a
+    {
+        font-size: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
