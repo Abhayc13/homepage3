@@ -43,7 +43,7 @@
 }
 .text3
 {
-    margin-left: 7%;
+    margin-left: 9%;
     flex-basis: 35%;
 }
 .text3 p
@@ -311,7 +311,7 @@ background-repeat: no-repeat;
 }
 .format2 input {
     height: 45px;
-    width: 386px;
+    width: 430px;
 }
 .format2 ::placeholder
 {
@@ -358,28 +358,36 @@ background-repeat: no-repeat;
         display: block;
         padding-top: 20px;
     }
-    .card1 .bg-img
-    {
-        background-size: cover;
-        min-height: 250px;
-    }
-    .card1 .bg-img2
-    {
-        background-size: cover;
-        min-height: 250px;
-    } .card2 .bg-img3
-    {
-        background-size: cover;
-        min-height: 250px;
-    } .card2 .bg-img4
-    {
-        background-size: cover;
-        min-height: 250px;
-    } .card3 .bg-img5 
+     .card3 .bg-img5 
     {
         background-size: cover;
         min-height: 300px;
     }
+    .card5
+    {
+        max-width: none;
+    }
+    .card4
+    {
+        max-width: none;
+    }
+    .two-col-container
+    {
+        margin: -645px 0px 100px 0px;
+    }
+    .format2
+    {
+        display: block;
+    }
+    .format2 input
+    {
+        width: 100%;
+        height: 30px;
+    }
+    .format1
+{
+    padding-top: 75px;
+}
 }
 @media (max-width:768px){
     .main1{
@@ -422,19 +430,17 @@ background-repeat: no-repeat;
     flex-wrap: wrap;
     padding-top: 0;
     }
-    .main4::before
-    {
-        height: 170px;
-        bottom: -100px;
-    }
     .content-block1 .image1 
     {
         min-height: 300px;
+        margin-bottom: 20px;
     }
     .content-block2 .image2 
     {
         min-height: 300px;
         margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .main4
     {
@@ -458,10 +464,6 @@ background-repeat: no-repeat;
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .main5
-    {
-        padding-top: 0;
     }
     .text4
     {
@@ -519,6 +521,7 @@ background-repeat: no-repeat;
     {
     min-height: 300px;
     margin-left: 0;
+    margin-top: 20px;
     }
     .text5 .primary-button a
     {
@@ -529,15 +532,44 @@ background-repeat: no-repeat;
     }
     .text5 h6
     {
-        padding-top: 5px;
+        padding-top: 20px;
     }
     .main10
     {
         display: block;
         padding-top: 40px;
     }
+    .card1
+    {
+        display: block;
+    }
+    .card2
+    {
+        display: block;
+    }
+    .card1 .bg-img
+    {
+        background-size: cover;
+        min-height: 250px;
+        margin-bottom: 20px;
+    }
+    .card1 .bg-img2
+    {
+        background-size: cover;
+        min-height: 250px;
+        margin-bottom: 20px;
+    } .card2 .bg-img3
+    {
+        background-size: cover;
+        min-height: 250px;
+        margin-bottom: 20px;
+    } .card2 .bg-img4
+    {
+        background-size: cover;
+        min-height: 250px;
+        margin-bottom: 20px;
 }
-
+}
 @media (min-width:769px) and (max-width:1024px){
     .main1{
         min-height: 350px;
@@ -560,19 +592,17 @@ background-repeat: no-repeat;
     flex-wrap: wrap;
     padding-top: 0;
     }
-    .main4::before
-    {
-        height: 220px;
-        bottom: -100px;
-    }
     .content-block1 .image1 
     {
         min-height: 400px;
+        margin-bottom: 20px;
     }
     .content-block2 .image2 
     {
         min-height: 400px;
         margin-left: 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
     .main4
     {
@@ -600,10 +630,6 @@ background-repeat: no-repeat;
     .main5
     {
         padding-top: 0;
-    }
-    .text4
-    {
-        padding-top: 0px;
     }
     .text4
     {
@@ -708,7 +734,7 @@ h4 {
     margin-top: 25px;
 }
 .format3 .fourth-button a {
-    font-size: 15px;
+    font-size: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 30px;
@@ -717,7 +743,7 @@ h4 {
 }
 @media (min-width: 768px) and (max-width: 1024px){
 .main11 {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .format2 input {
     max-width: 300px;
@@ -735,27 +761,11 @@ h4 {
 }
 }
 @media (min-width:768px) and (max-width:1023px) {
-    .cards3 {
-        max-width: 360px;
-        background-size: auto;
-    }
     .text6 {
         padding: 100px 50px 100px 50px;
     }
-    .cards4 {
-        max-width: 360px;
-        background-size: auto;
-    }
     .text7 {
         padding: 100px 50px 100px 50px;
-    }
-}
-@media (min-width:1024px) and (max-width:1151px) {
-    .cards3 {
-        max-width: 470px;
-    }
-    .cards4 {
-        max-width: 470px;
     }
 }
 @media (min-width: 0px) and (max-width: 480px){
@@ -763,12 +773,7 @@ h4 {
     padding-top: 30px;
 }
 .format2 input {
-    max-width: 150px;
     max-height: 30px;
-}
-.format2 input {
-    height: 45px;
-    width: 386px;
 }
 }
 @media (min-width: 481px) and (max-width: 769px){
@@ -789,5 +794,40 @@ h4 {
 @media (min-width:365px) and (max-width:425px) {
     .two-col-container{
     margin: -660px 0px 50px 0px;
+    }
+    
+}
+@media (min-width:481px) and (max-width:768px) {
+    .cards3
+    {
+        max-width: 100%;
+    }
+    .cards4
+    {
+        max-width: 100%;
+    }
+}
+@media (max-width:1024px) {
+    .main4::before
+    {
+        height: 110px;
+        bottom: -100px;
+    }
+}
+@media (min-width:768px) and (max-width:1177px){
+    .cards3
+    {
+        width: 50%;
+    }
+    .cards4
+    {
+        width: 49%;
+    }
+}
+@media (min-width:1025px) and (max-width:1592px) {
+    .main4::before
+    {
+        height: 200px;
+        bottom: -192px;
     }
 }
