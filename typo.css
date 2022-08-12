@@ -142,6 +142,8 @@ p
     line-height: 2;
     font-family: 'Montserrat';
     cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #D4A64F;
 }
 .third-button a:hover
 {
@@ -177,6 +179,11 @@ p
     {
         text-align: center;
     }
+    p
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 @media  (max-width:767px){
 
@@ -193,12 +200,14 @@ p
     {
         font-size: 35px;
         text-align: center;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
     p
     {
         font-size: 15px;
         text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     h4
     {
